@@ -4,4 +4,4 @@ Here You can find solution of various machine learning problems solved using R o
 Most of the problems are solved using various approaches.
 
 List of Problem solved
-1. Breast Cancer 
+1. Breast Cancer Prediction
