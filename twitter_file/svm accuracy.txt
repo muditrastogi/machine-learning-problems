@@ -1,0 +1,84 @@
+*************************
+
+Applying SVM 
+
+*************************
+
+
+Original data dimension: (140707, 76)
+
+Trainning data dimension:    (1000, 76)
+
+Label dimension:      (140707,)
+
+Training label data dimension:  (1000,)
+
+
+
+Classifier output:
+
+
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='linear', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+
+
+
+
+Testing data dimension:   (1000, 76)
+
+
+Length of predicted label:   1000
+
+
+
+
+
+
+Only SVM Accuracy
+0.927
+
+
+**************************
+
+AFTER APPLYING PCA
+
+**************************
+
+
+Original data dimension: (140707, 76)
+
+
+Label dimension:      (140707,)
+
+
+
+Before applying PCA DIMENSION:   (140707, 76)
+
+After Applying PCA  Dimension:   (140707, 3)
+
+
+
+
+Classifier output:
+
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='linear', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+
+
+
+
+Testing data dimension:   (1000, 3)
+
+
+Length of predicted data:   1000
+
+
+
+
+
+After applying PCA  SVM Accuracy
+0.958
