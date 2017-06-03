@@ -5,3 +5,4 @@ Most of the problems are solved using various approaches.
 
 List of Problem solved
 1. Breast Cancer Prediction
+2. Twitter Buzz Event Prediction
